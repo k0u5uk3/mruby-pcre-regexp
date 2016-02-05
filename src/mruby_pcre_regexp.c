@@ -13,7 +13,7 @@
 #else
   #define STRCHR strchr
 #endif
-#include <pcre.h>
+#include "pcre.h"
 
 struct mrb_pcre_regexp {
   pcre* re;
